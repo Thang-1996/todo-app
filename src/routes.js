@@ -2,7 +2,7 @@ import Home from "./features/home/Home";
 import Login from "./features/login/Login";
 import Register from "./features/register/Register";
 
-const router = [
+const routes = [
   {
     path: "/",
     component: Home,
@@ -19,3 +19,4 @@ const router = [
     exact: true,
   },
 ];
+export default routes;
